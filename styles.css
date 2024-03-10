@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Light Blue Background */
+    color: #100101; /* Dark Text Color */
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+.Container {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #e7eeee; /* White Background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid #c0b9b9;
+    border-radius: 10px;
+}
+
+.project a {
+    color: #0b1056; /* Blue Link Color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+    main {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 18px;
+    }
+
+    .project {
+        font-size: 14px;
+    }
+}
